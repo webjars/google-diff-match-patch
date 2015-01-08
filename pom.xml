@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>google-diff-match-patch</artifactId>
-    <version>20121119-1-SNAPSHOT</version>
+    <version>20121119-1</version>
     <name>Google-diff-match-patch</name>
     <description>WebJar for Google-diff-match-patch</description>
     <url>http://webjars.org</url>
@@ -55,7 +55,7 @@
         <url>http://github.com/webjars/google-diff-match-patch</url>
         <connection>scm:git:https://github.com/webjars/google-diff-match-patch.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/google-diff-match-patch.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>google-diff-match-patch-20121119-1</tag>
     </scm>
     
     <build>
