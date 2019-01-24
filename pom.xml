@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>google-diff-match-patch</artifactId>
-    <version>895a9512bb-SNAPSHOT</version>
+    <version>895a9512bb</version>
     <name>Google-diff-match-patch</name>
     <description>WebJar for Google-diff-match-patch</description>
     <url>http://webjars.org</url>
@@ -55,7 +55,7 @@
         <url>http://github.com/webjars/google-diff-match-patch</url>
         <connection>scm:git:https://github.com/webjars/google-diff-match-patch.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/google-diff-match-patch.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>google-diff-match-patch-895a9512bb</tag>
     </scm>
     
     <build>
@@ -92,7 +92,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/diff-match-patch-${upstream.version}/javascript" excludes="tests/"/>
+                                    <fileset dir="${project.build.directory}/diff-match-patch-${upstream.version}/javascript" excludes="tests/" />
                                 </move>
                             </target>
                         </configuration>
